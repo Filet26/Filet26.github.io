@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GKJ Capital Management</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h class="logo">GKJ Capital LLC</h>
+        <div class="toggle"></div>
+      </header>
+      <video src="OCEAN_GKJv2.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Invest With GKJ Capital</h2>
+        <h3>Your Money Might be Safe With us, No Guarantees.</h3>
+        <p>
+          Just so you know, our fund only invests in two things: we allocated 60
+          percent of your capital into indexes that bet against Indian beef
+          farms. With the remaining capital, we invest that into other financial
+          instruments that we cannot disclose, otherwise you might sue us.
+        </p>
+        <a href="#">GKJ Global Equities</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="facebook-logo2.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter-logo2.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram-logo2.png" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="msa-box">
+      <a class="msa-button" href="#msa-popup1">Read Disclaimer</a>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
