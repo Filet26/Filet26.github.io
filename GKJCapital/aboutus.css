@@ -95,7 +95,7 @@
 }
 
 .text h2 {
-  font-size: 4.5em;
+  font-size: 3em;
   font-weight: 200;
   line-height: 1em;
   letter-spacing: 2px;
@@ -104,7 +104,7 @@
 
 .text h3 {
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1em;
 }
 
@@ -118,7 +118,7 @@
 .text a {
   display: inline-block;
   font-size: 1em;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 10px 30px;
   text-decoration: none;
   color: #111;
